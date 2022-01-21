@@ -1,0 +1,19 @@
+{
+  "name": "send-message-application",
+  "version": "1.0.0",
+  "description": "A Simple NodeJS Discord Library",
+  "scripts": {
+    "start": "node dist/.",
+    "build": "tsc",
+    "quickstart": "tsc && node dist/.",
+    "dev": "ts-node src/index.ts"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/superagent": "^4.1.14",
+    "@types/ws": "^8.2.2",
+    "superagent": "^7.1.1",
+    "ws": "^8.3.0"
+  }
+}
